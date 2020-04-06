@@ -15,8 +15,8 @@
 - 运行DVMT_set.cmd即可修改，值得注意的是解压的时候，bin文件夹里的segwindrvx64.sys文件容易被查毒软件删掉，运行之前请检查此文件是否存在。
 
 #### 更新2
-通过type-c 外接小米34寸显示器时，会在启动过程中卡住，报kdp_code_outpt异常，需要将DVMT值为128M。
-如果需要修改为其他大小，可以编辑/2--DVMT/DVMT/bin/patchscript_dvmt.ps1，取消对应的注释，并将默认值加上助注释。
+通过type-c 外接小米34寸显示器时，会在启动过程中卡住，报kdp_code_outpt异常，需要将DVMT值改为128M。
+如果需要修改为其他大小，可以编辑/2--DVMT/DVMT/bin/patchscript_dvmt.ps1，取消对应的注释，并将默认值加上注释。
 ```
 #$bytes[$offset] = 0x30 # 0mb
 #$bytes[$offset] = 0x31 # 32mb
