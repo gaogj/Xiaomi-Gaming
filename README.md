@@ -1,3 +1,4 @@
+forked from zhangsinger/Xiaomi-Gaming
 
 ### 设备：小米游戏本8代，系统：Mojave / Catalina
 
